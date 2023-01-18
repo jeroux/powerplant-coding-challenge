@@ -43,7 +43,7 @@ run the server on port 8888
 ## Usage
 The documentation of the api is in the swagger.
 
-With you browser go on the swagger at
+With you browser go to the swagger at
 [http://127.0.0.1:8888/swagger-ui/](http://127.0.0.1:8888/swagger-ui/)
 
 You can use it to test the api.
