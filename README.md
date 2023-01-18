@@ -50,3 +50,12 @@ You can use it to test the api.
 
 If you want to use another mean, you can sent a POST request with the adequate format at
 [http://127.0.0.1:8888/productionplan/](http://127.0.0.1:8888/productionplan/)
+
+## What is missing
+
+1. Automatic tests
+2. The swagger is not exact. E.g the names of the properties in the JSON are wrong
+and bad documentation when errors.
+3. A docker image to help install it quicker
+4. Use the CO2 to optimize
+5. Acces control
