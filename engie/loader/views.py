@@ -61,10 +61,11 @@ def compute_best_powerplants(load, fuels, powerplants):
     # add the p column: the powerplant will produce X MW of electricity
     for row in df.itertuples():
         df.at[row[0], "p"] = get_p(row[4], row[5], load)
-        print(df.at[row[0], "p"])
         load -= df.at[row[0], "p"]
         if load <= 0:
             break
+
+    return df[["name", "p"]].to_json(orient="records")
    
 def get_cost(type, efficiency, fuels):
     if type == "gasfired":
