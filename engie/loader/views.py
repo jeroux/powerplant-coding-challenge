@@ -9,7 +9,8 @@ from .serializers import PayloadSerializer, ResultSerializer
 
 @extend_schema(
         request=PayloadSerializer,
-        responses={200: ResultSerializer},
+        responses={200: ResultSerializer,
+                   400: JsonResponse},
         methods=["POST"]
     )
 @api_view(['POST'])
