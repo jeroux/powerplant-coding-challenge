@@ -1,6 +1,7 @@
 # powerplant-coding-challenge
 
 *author: Jeremy Lipszyc*
+
 *created the 18/01/2023*
 
 ## Overview
