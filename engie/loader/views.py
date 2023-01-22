@@ -85,7 +85,7 @@ def get_p(pmin, pmax, load):
     elif load > pmax:
         return pmax
     elif load < pmin:
-        return pmin
+        return 0
     else:
         return load
 
